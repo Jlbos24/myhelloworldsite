@@ -1,4 +1,28 @@
-.responsive{
-    width: 100%;
-    height: auto;
+
+html{
+   background: url(/images/helloworld.png) no-repeat center center fixed;
+   background-size: cover;
+   
+}
+.enter-homepage{
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: black;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+      
+.enter-homepage:hover {
+    /*background-image: url(https://media1.giphy.com/media/GLbiGvv9qrpny/giphy.gif);*/
+    background-color: transparent;
+    color: white;
+    
 }
