@@ -1,0 +1,59 @@
+html {
+   background: url(images/contactmeimg.jpeg) no-repeat center center fixed;
+}
+body{
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-bar a:hover {
+  background-color: #111;
+}
+
+.flex-container {
+  display: flex;
+  background: transparent;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.flex-container  div {
+  background-color: transparent;
+  color: white;
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  padding: 10px 30px 30px 10px;
+  font-size: 15px;
+  font-style: oblique;
+  border-radius: 10px;
+  border-style: solid;
+  text-align: left;
+} 
+
+.flex-container ul{
+  list-style-type: none;
+}
+
+.flex-container li{
+  text-align: left;
+}
+
+.flex-container a{
+  color: gold
+}
