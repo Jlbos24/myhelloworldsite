@@ -1,0 +1,115 @@
+html {
+  background-color: #f3f4f7;
+  background: url(images/contactmeimg.jpeg) no-repeat center center fixed;
+  
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-bar a:hover {
+  background-color: #111;
+}
+h1{
+  color: white;
+}
+
+header, footer {
+  display: flex;
+  flex-direction: row;
+  flex-basis: content;
+}
+
+header h3{
+  color: white;
+}
+
+footer {
+  border-style: solid;
+  border: 10 px;
+  border-color: white;
+  flex-direction: column;
+  /* background: url(images/contactmeimg.jpeg) no-repeat center center fixed; */
+  background-color: transparent;
+}
+
+
+.fab{
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+} 
+
+.fas {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.icon-LinkedIn a{
+  color:#007bb5;
+}
+
+.icon-Github a{
+ color: white;
+}
+
+.icon-email a{
+  color: red;
+}
+
+.icon-mobile a{
+  color: white;
+ }
+
+.socialmediaicons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.socialmediaicons h3{
+  display: flex;
+  margin: 0px;
+}
+
+footer h1, footer h3{
+  display: flex;
+  padding-left: 10px ;
+  color: white;  
+  /* border: 1px solid black;
+  border-width: 10px;
+  border-
+  background-color: black; */
+
+}
+
+footer ul, footer a{
+  color: rgb(255, 0, 43);
+}
+

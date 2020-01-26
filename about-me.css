@@ -1,22 +1,110 @@
-ul {
+html {
+  background: url(images/contactmeimg.jpeg) no-repeat center center fixed;
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+  background: transparent;
+  color: white;
+  } 
+
+  header, footer {
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: content; */
+    background: transparent;
+  }
+
+.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
+}
 
-  li { 
+.nav-bar a {
     float: left;
-  }
-  
-  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-    li a:hover {
+}
+.nav-bar a:hover {
     background-color: #111;
-  }
+}
+
+h1 {
+    font-size: 72 pt;
+    color: white;
+    text-align: center;
+}
+
+header h3 a{
+  color:#007bb5;
+  text-align: left;
+}
+
+/* .fab fa-linkedin {
+  background: #007bb5;
+    color: white;
+  display: flex;
+  flex-direction: column;
+ } */
+
+.fab{
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+} 
+
+header div{
+  display: flex;
+  flex-direction: column;
+}
+
+header h2 {
+  font-size: 70 pt;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+header ul{
+  list-style-type:square;
+}
+header li{
+  text-align: left;
+}
+
+.aboutmeheader {
+    font-size: 70 pt;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+footer .aboutmep{
+  display: flex;
+  flex-direction: row;
+}
+footer .aboutmep p{
+    font-size: 40 pt;
+    color: white;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    }
+
+
+
+
+
+ 
